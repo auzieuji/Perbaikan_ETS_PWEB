@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: "arial", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.poke{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    border-style: groove;
+    border-width: thin;
+    border-color: #4287f5;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    margin: 1rem;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4287f5; 
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    display: block; 
+    font-size: 15px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.poke-info{
+    justify-content: center;
+    color: #000;
+    align-items: center;
+}
+
+.poke-info p{
+    margin: 10px 0;
+    text-align: center;
+}
